@@ -323,6 +323,11 @@ form .searchbar:focus {
   width: 50%;
   text-decoration: none;
 }
+.content-div .row .description-message .book-now:hover {
+  background: linear-gradient(90deg, rgb(238, 47, 99) 0%, rgb(250, 175, 196) 68%, rgb(250, 175, 196) 100%);
+  transition: 0.5s ease-in;
+  color: #303030;
+}
 @media screen and (max-width: 1200px) {
   .content-div .row .description-message .book-now {
     width: 100%;
