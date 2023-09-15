@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+$searchbar-color : rgb(221, 221, 221);
+$pinktheme : #ee2f63;
 
 .nav-logo {
     img {
@@ -15,7 +17,7 @@ form {
     .searchbar {
         width: 450px;
         border-radius: 25px;
-        background-color: rgb(221, 221, 221);
+        background-color: $searchbar-color;
         color: rgb(209, 208, 208);
         transition: width 0.4s ease-in;
         &:focus {
@@ -62,7 +64,7 @@ form {
         font-size: 12px;
         font-weight: 600;
         text-align: center;
-        background-color: #ee2f63;
+        background-color: $pinktheme;
         color: white;
         border-radius: 100%;
         height: 20px;
@@ -97,7 +99,7 @@ form {
                     font-size: 18px;
                     padding: 15px 50px;
                     &:hover {
-                        background-color: #ee2f63;
+                        background-color: $pinktheme;
                     }
                 }
             }
@@ -140,14 +142,14 @@ form {
             margin-top: 20px;
             margin-right: 20px;
             height: 30px;
-            color: #ee2f63 ;
+            color: $pinktheme ;
             text-decoration: none;
-            border-bottom: 2px solid #ee2f63;
+            border-bottom: 2px solid $pinktheme;
             padding: 0;
         }
         .rating {
             padding: 5px 10px;
-            background-color: #ee2f63;
+            background-color: $pinktheme;
             color: white;
             .rating-num {
                 font-size: 28px;
@@ -238,7 +240,7 @@ form {
                                     }
                                     .user-rating {
                                         font-size: 38px;
-                                        color: #ee2f63;
+                                        color: $pinktheme;
                                         margin: auto 0;
                                     }
                                 }
@@ -250,8 +252,8 @@ form {
                         .review-showmore {
                             margin: 0 auto;
                             text-decoration: none;
-                            color: #ee2f63;
-                            border-bottom: 1px solid #ee2f63;
+                            color: $pinktheme;
+                            border-bottom: 1px solid $pinktheme;
                         }
                     }
                 }
